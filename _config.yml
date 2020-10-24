@@ -1,3 +1,4 @@
 title: "Madrid C/C++ User Group"
 
-exclude: README.md
+exclude: 
+  - README.md
