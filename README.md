@@ -1,4 +1,4 @@
-Madrid C/C++ USer Group
+Madrid C/C++ User Group
 =======================
 
 Blog: https://madridccppug.github.io/
