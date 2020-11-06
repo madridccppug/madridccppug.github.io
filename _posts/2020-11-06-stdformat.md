@@ -1,5 +1,6 @@
 ---
 layout: post
+author: Manu Sanchez
 title: String formatting the cool way with C++20 std::format()
 tags: [C++20]
 date: 2020-11-06T01:46:34+02:00
@@ -26,7 +27,7 @@ integrated `printf()`-like APIs these days.
 > Let's be honest, it's 2020 and we all still do printf-debugging from time to
 > time. 
 
-But from its simplicity came its wekaness: `printf()` and related functions
+But from its simplicity came its weakness: `printf()` and related functions
 work with built-in C types only (`int`, `const char*` strings, etc), formatting
 is not type safe, and the multi-argument API is based on arcane
 [`varargs`](https://en.cppreference.com/w/cpp/utility/variadic).
@@ -255,8 +256,8 @@ a subset of features common to the standard `<format>` plus some extra nice
 features:
 
  - `fmt::print()` as substitute for `std::cout`.
- - Colored output with foreground and background modifiers. Built-in support
- - for formatting containers
+ - Colored output with foreground and background modifiers.
+ - Built-in support for formatting containers
 
 The library is available [on github](https://github.com/fmtlib/fmt) and [the
 major C++](https://conan.io/center/fmt) [package
