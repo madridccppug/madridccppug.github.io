@@ -2,12 +2,10 @@
 layout: post
 author: Manu Sanchez
 title: String formatting the cool way with C++20 std::format()
-tags: [C++20]
+tags: [C++20, fmt, std::format]
 date: 2020-11-06T01:46:34+02:00
 comments: false
 ---
-
-# String formatting the cool way with C++20 `std::format()`
 
 Through its 40 years of history C++ has had multiple "tries" to bring text
 formatting to the language. First it was the `printf()` family of functions
