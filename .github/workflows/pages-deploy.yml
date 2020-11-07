@@ -1,4 +1,4 @@
-name: 'Automatic build'
+name: 'Deploy webpage'
 on:
   push:
     branches:
@@ -8,6 +8,8 @@ on:
       - README.md
       - LICENSE
       - server.sh
+  schedule:
+    - cron:  '0 10 * * *'
 
 jobs:
   continuous-delivery:
